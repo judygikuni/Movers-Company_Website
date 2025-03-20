@@ -1,0 +1,287 @@
+.socials{
+    display: flex;
+    max-width: 100%;
+    border: solid;
+}
+body{
+    font-size: larger;
+}
+.Email{
+    display: flex;
+    margin-left: 5cm;
+}
+.phonenumber{
+    display: flex;
+    margin-left: 30cm;
+    
+
+}
+#emailaddress{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#emailaddress:hover{
+    color: blue;
+}
+#address, #phoneline {
+    color: rgb(107, 105, 105);
+}
+#emailicon{
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    color: blue;
+
+}
+#phoneicon{
+    margin-right: 1cm;
+    margin-top: 0.5cm;
+    color: blue;
+}
+.menu{
+    display: flex;
+    margin-top: 2cm;
+}
+#about, #services, #pricing, #gallery, #blog, #contact{
+    margin-left: 3cm;
+    text-decoration: none;
+    color: black;
+   
+}
+#home{
+    color: orange;
+    margin-left: 8cm;
+}
+#home:hover, #about:hover, #services:hover, #pricing:hover, #gallery:hover, #blog:hover, #contact:hover{
+    color: blue;
+}
+.familymoves{
+    margin-top: 1cm;
+    background-image:url(Images/happy-african-american-young-family-bought-new-house.jpg);
+}
+#imagefam{
+    height: 30cm;
+    max-width: 100%;
+}
+.image_text{
+   
+    background-image:url(Images/happy-african-american-young-family-bought-new-house.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    color: white;
+    padding: 70px;
+    height: 600px;
+    z-index: 1;
+    
+    /* text-align: center;
+    position: relative;
+    margin-top: 2cm;
+    height: 600px; */
+}
+#image_txt, #image_heading{
+    z-index: 2;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 3cm;
+
+}
+.container_aboutus{
+    display: flex;
+    margin-top: 1cm;
+    padding: 4cm;
+    margin-left: 3cm;
+}
+#fun_image{
+    height: 15cm;
+    width: 13cm;
+}
+#fun_heading{
+    text-align: center;     
+}
+#linkaboutus{
+    color: orange;
+}
+#image_nopeople{
+    height: 15cm;
+    width: 16cm;
+}
+.container_easyfun{
+    margin-left: 3cm;
+
+    
+}
+.since_year{
+    display: flex;
+    margin-left: 1cm;
+}
+#text_sinceyear{
+    margin-top: 1cm;
+    margin-left: 3cm;
+}
+.riaadsince{
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+#linkriaadsince{
+    color: orange;
+}
+#year{
+    color: rgb(1, 1, 32);
+    
+}
+.logoipsum{
+    margin-left: 5cm;
+    word-spacing: 5cm;
+}
+
+.whatwedo{
+    text-align: center;
+    margin-top: 5cm;
+}
+#linkservices{
+    color: orange;
+}
+.servicesoffered{
+    display: flex;
+    margin-top: 3cm;
+}
+.packing{
+    margin-left: 5cm;
+}
+#image_pack, #image_trans, #image_insuarance{
+    height: 4cm;
+}
+#heading_pack, #heading_store, #heading_trans, #heading_insuarance{
+    text-align: center;
+    margin-top: 1.5cm;
+}
+#parag_pack,  #parag_trans, #parag_insuarance{
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: 3cm;
+    color: rgb(88, 88, 88);
+}
+#parag_store{
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: 3cm;
+}
+
+/* .linkpack{
+    margin-top: 2cm;
+} */
+
+
+
+.storage{
+    margin-left: 7cm;
+    border: solid 1px;
+    background-color: rgb(73, 73, 252);
+    color: white;
+    /* width: 6cm;
+    */
+}
+#image_stor{
+    height: 4cm;
+    background-color:rgb(73, 73, 252) ;
+}
+.transport{
+    margin-left: 8cm;
+}
+#linktrans, #linkinsuarance, #linkstorage, #linkpack{
+   margin-left: 0.5cm;
+   text-decoration: none;
+   color: orange;
+}
+.insuarance{
+    margin-left: 8cm;
+}
+.Helping{
+    display: flex;
+    margin-top: 4cm;
+    margin-left: 7cm;
+}
+.clientvideo{
+    display: flex;
+    margin-left: 10cm;
+}
+#play_icon{
+    margin-left: 2.5cm;
+    margin-top: 1cm;
+  
+    color: orange;
+    background-image:url(Images/black-man-moving-furniture.jpg);
+    background-size: cover;
+}   
+#business_image{
+    height: 15cm;
+    width: 15cm;
+}
+.business_moving{
+    display: flex;
+    margin-left: 4cm;
+    margin-top: 3cm;
+}
+.leadingbusiness{
+    margin-left: 3cm;
+}
+.helping, .saving, .booksurvey{
+    display: flex;
+}
+#tick{
+    height: 1cm;
+    margin-top: 0.3cm;
+}
+.helpingtick{
+    
+}
+.bookonline{
+    text-align: center;
+    margin-top: 1cm;
+}
+.whattheysay{
+    text-align: center;
+    margin-top: 3cm;
+}
+
+#linktesti, #booklink, #whychoseriaad{
+    color: orange;
+}
+.testimonials{
+    display: flex;
+    margin-left: 5cm;
+    margin-top: 5cm;
+}
+.firsttestimonial{
+
+}
+.secondtestimonial{
+    margin-left: 7cm;
+}
+.thirdtestimonial{
+    margin-left: 9cm;
+}
+#name{
+    color: orange;
+    margin-top: 2cm;
+    text-align: center;
+}
+#customer{
+    text-align: center;
+}
+#paragraph{
+    text-align: center;
+}
+#quotes_icon{
+    margin-left: 3cm;
+    color: blue;
+    
+}
+#person{
+    height: 1.5cm;
+    margin-top: 1.5cm;
+     border-radius: 50px;
+    margin-left: 3.5cm;
+}
